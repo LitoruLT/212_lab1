@@ -1,4 +1,4 @@
-a = int(input())
-re = a%3
-re2 = a%11
-print(re, re2)
+N = int(input())
+re = N%3
+re2 = N%11
+print(re,re2)
