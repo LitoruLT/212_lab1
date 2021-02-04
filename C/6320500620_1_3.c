@@ -2,10 +2,8 @@
 
 void main()
 {
-    signed long long int n;
+    unsigned long long n;
     scanf("%d",&n);
-    signed long long int re = n%3;
-    signed long long int re2 = n%11;
-    printf("%lld %lld",re,re2);
+    printf("%llu %llu",n%3,n%11);
 }
 
