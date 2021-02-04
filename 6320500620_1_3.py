@@ -1,4 +1,4 @@
-N = int(input())
+N = float(input())
 re = N%3
 re2 = N%11
-print(re,re2)
+print(int(re),int(re2))
