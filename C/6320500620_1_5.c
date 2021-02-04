@@ -1,17 +1,13 @@
 #include<stdio.h>
 void main()
 {
-    int n,max;
-    printf("");
-    scanf("%d",&n);
-
-    int num[n],i;
-    printf("");
-
+    long long int n,max;
+    scanf("%lld",&n);
+    long long int num[n],i;
     for(i=0;i<n;i++)
-        scanf("%d",&num[i]);
+        scanf("%lld",&num[i]);
 
-    int po;
+    long long int po;
     for(i=0;i<n;i++)
     {
         if(i==0)
@@ -19,8 +15,8 @@ void main()
         else if(max < num[i])
         {
             max=num[i];
-            po = i+1;
+            po = i;
         }
     }
-    printf("%d %d",po,max);
+    printf("%lld %lld",po+1,max);
 }
