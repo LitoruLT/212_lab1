@@ -2,11 +2,11 @@
 void main()
 {
     int n,max;
-    printf("Enter n:");
+    printf("");
     scanf("%d",&n);
 
     int num[n],i;
-    printf("Enter Number:");
+    printf("");
 
     for(i=0;i<n;i++)
         scanf("%d",&num[i]);
